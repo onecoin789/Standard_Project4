@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
             val adapter = MultiViewAdapter(itemList)
             binding.recyclerView.adapter = adapter
             binding.recyclerView.layoutManager = LinearLayoutManager(this@MainActivity)
-            adapter.notifyDataSetChanged()
 
             adapter.itemClick = object : MultiViewAdapter.ItemClick {
                 override fun onClick(view: View, position: Int) {
