@@ -41,24 +41,6 @@ class MainActivity : AppCompatActivity() {
                     startActivity(intent)
                 }
             }
-    }
-
-//    private fun initRecycler() {
-//        adapter = MultiViewAdapter(this)
-//        binding.recyclerView.adapter = adapter
-//        binding.recyclerView.layoutManager = LinearLayoutManager(this)
-//
-//        itemList.apply {
-//            add(MyItem("kim1", "1234  5678  1234  5678", "12/ 24", "$3,100.10", multi_type1))
-//            add(MyItem("kim1", "5456  5678  4452  2132", "11/ 23", "$2,500.00", multi_type2))
-//            add(MyItem("kim2", "4151  2138  5415  4514", "08/ 23", "$6,200.00", multi_type3))
-//            add(MyItem("kim2", "4841  4156  1230  5678", "04/ 25", "$3,900.20", multi_type1))
-//            add(MyItem("kim3", "4235  4856  0412  8741", "03/ 26", "$1,800.00", multi_type2))
-//            add(MyItem("kim3", "7862  5463  5463  5412", "09/ 26", "$1,500.30", multi_type3))
-//
-//            adapter.itemList = itemList
-//            adapter.notifyDataSetChanged()
-//
-//        }
+        }
     }
 }
