@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Standard_Project4</string>
+    <string name="title">Select a Card</string>
+    <string name="title2">Available Balance</string>
+    <string name="price">$2,85,856.20</string>
+    <string name="explain">Please, select a card you are willing to do the\nmoney transfer with or add a new card\nusing the plus button below.</string>
+    <string name="card">Select a Card</string>
+    <string name="rv_card_name">A Debit Card</string>
+    <string name="rv_price">Your Balance</string>
+    <string name="rv_visa">Visa</string>
+</resources>
