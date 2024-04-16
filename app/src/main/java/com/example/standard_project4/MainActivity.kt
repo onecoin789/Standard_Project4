@@ -33,10 +33,13 @@ class MainActivity : AppCompatActivity() {
             adapter.itemClick = object : MultiViewAdapter.ItemClick {
                 override fun onClick(view: View, position: Int) {
                     val intent = Intent(this@MainActivity, DetailActivity::class.java)
-                    intent.putExtra("name", itemList[position].name)
-                    intent.putExtra("card", itemList[position].card)
-                    intent.putExtra("date", itemList[position].date)
-                    intent.putExtra("price", itemList[position].price)
+                    val bundle = Bundle()
+                    bundle.putString("name", itemList[position].name)
+                    bundle.putString("card", itemList[position].card)
+                    bundle.putString("date", itemList[position].date)
+                    bundle.putString("price", itemList[position].price)
+
+                    intent.putExtra("bundle", bundle)
                     startActivity(intent)
                 }
             }

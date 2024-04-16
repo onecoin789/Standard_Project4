@@ -12,7 +12,7 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        val bundle : Bundle? = intent.extras
+        val bundle = intent.getBundleExtra("bundle")
         val name = bundle?.getString("name")
         val card = bundle?.getString("card")
         val date = bundle?.getString("date")
