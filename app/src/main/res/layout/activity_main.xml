@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".presentation.MainActivity">
 
 
     <TextView
@@ -61,10 +61,11 @@
             android:textSize="17dp" />
 
         <TextView
+            android:id="@+id/tv_Balance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/price"
+            android:text="text"
             android:textColor="#5663BF"
             android:textSize="32dp"
             android:textStyle="bold" />
