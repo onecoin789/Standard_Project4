@@ -13,6 +13,12 @@ import java.text.DecimalFormat
 class MultiViewAdapter(private var onClick: (MyItem) -> Unit ) :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
+    companion object {
+        const val multi_type1 = 0
+        const val multi_type2 = 1
+        const val multi_type3 = 2
+    }
+
         var itemList = mutableListOf<MyItem>()
 
 //    interface ItemClick {

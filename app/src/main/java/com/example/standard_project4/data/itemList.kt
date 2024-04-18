@@ -1,8 +1,10 @@
 package com.example.standard_project4.data
 
-import com.example.standard_project4.presentation.multi_type1
-import com.example.standard_project4.presentation.multi_type2
-import com.example.standard_project4.presentation.multi_type3
+import com.example.standard_project4.presentation.MultiViewAdapter
+import com.example.standard_project4.presentation.MultiViewAdapter.Companion.multi_type1
+import com.example.standard_project4.presentation.MultiViewAdapter.Companion.multi_type2
+import com.example.standard_project4.presentation.MultiViewAdapter.Companion.multi_type3
+
 
 
 fun itemList(): MutableList<MyItem> {
