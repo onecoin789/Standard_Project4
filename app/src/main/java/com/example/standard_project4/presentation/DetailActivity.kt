@@ -14,9 +14,12 @@ class DetailActivity : AppCompatActivity() {
         const val EXTRA_ITEM: String = "extra_item"
     }
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
 
         val itemList = intent.getParcelableExtra<MyItem>(EXTRA_ITEM)
 
@@ -28,7 +31,5 @@ class DetailActivity : AppCompatActivity() {
         binding.btnBackDetail.setOnClickListener {
             finish()
         }
-
-
     }
 }
