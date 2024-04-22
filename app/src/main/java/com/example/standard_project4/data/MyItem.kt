@@ -12,3 +12,4 @@ data class MyItem(
     val price: Double,
     val type: Int
 ) : Parcelable
+

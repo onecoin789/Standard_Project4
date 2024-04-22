@@ -1,6 +1,5 @@
 package com.example.standard_project4.data
 
-import android.provider.ContactsContract.Data
 
 class DataSource {
     companion object {

@@ -1,7 +1,6 @@
 package com.example.standard_project4.presentation
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.standard_project4.data.MyItem
@@ -19,13 +18,7 @@ class MultiViewAdapter(private var onClick: (MyItem) -> Unit ) :
         const val multi_type3 = 2
     }
 
-        var itemList = mutableListOf<MyItem>()
-
-//    interface ItemClick {
-//        fun onClick(view: View, position: Int)
-//    }
-//
-//    var itemClick: ItemClick? = null
+    var itemList = mutableListOf<MyItem>()
 
 
     override fun getItemCount(): Int = itemList.size
